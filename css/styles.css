@@ -91,39 +91,36 @@ h1 {
 .header {
     background-color: #1b2127;
     color: white; /* color a los textos */
+    display: flex; 
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
 }
 
 .header a {
     color: white;
     text-decoration: none; /*ningun estilo (quitar subrayado de los links)*/
-}
-
-.flexbox {
+    height: inherit;
     display: flex;
-
-    /* alinear elementos en columna (padre ordena a hijos)
-    flex-direction: column; */
-
-    /* propiedad de flex de aceptar que los elementos hijos dejen su estado 
-    horizonal y puedan moverse al vertical */
-    flex-wrap: wrap;
-
-    /* para alinear los elementos dentro de la columna */
-    justify-content: space-around;
-
-    /* alinear elementos de manera vertical */
     align-items: center;
+    padding: 0 10px;
 }
 
-.box {
-    width: 200px;
-    height: 200px;
-    border: 1px solid red;
-    margin: 10px;
-    /* capacidad de obedecer la habilidad flexible de bloques (valores de 0 - 1)
-    NOTA> En este ejemplo respeta el ancho original pero los elementos crean un scroll horizontal */
-    flex-shrink: 0;
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
-    /* capacidad para alinear a un objeto pero por ID */
-    align-self:flex-end;
+figure {
+    margin: 0;
 }
