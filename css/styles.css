@@ -13,3 +13,23 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Fjalla One', sans-serif;
 }
+
+h1 {
+    /* cambiar alto de linea */
+    line-height: 1.5;
+    /* tamano de fuente */
+    font-size: 40px;
+    /* peso de la fuente */
+    font-weight: normal;
+    
+    /* esto es cursiva */
+    /* font-style: italic; */
+
+    /* espaciado entre letras o caracteres */
+    letter-spacing: -.2px;
+
+    /* para agregar mayusculas */
+    /* text-transform: uppercase;
+
+    text-decoration: dashed; */
+}
