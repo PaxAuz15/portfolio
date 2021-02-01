@@ -35,7 +35,7 @@ h1 {
     text-decoration: dashed; */
 
     color: white;
-    margin: 100px 150px 70px 30px;
+    margin: 0;
 }
 
 .hero {
@@ -45,6 +45,8 @@ h1 {
     background-size: 500px 300px ; /* Primer valor (ANCHO) Segundo valor (ALTO) */
     background-repeat: no-repeat; /* Para que mi imagen no se repita */
     background-position-x: right; /* Posicionar derecha */
+    display: flex;
+    align-items: center;
 }
 
 .hero strong {
@@ -93,7 +95,7 @@ h1 {
     color: white; /* color a los textos */
     display: flex; 
     justify-content: space-between;
-    height: 90px;
+    height: 70px;
     align-items: center;
 }
 
@@ -123,4 +125,20 @@ ol, ul {
 
 figure {
     margin: 0;
+}
+
+.footer {
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: white    ;
 }
