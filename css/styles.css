@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
 }
 
 /* h1 {
@@ -50,6 +51,10 @@ h1 {
     color: #026fff;
 }
 
+.portfolio {
+    background: #fafafa;
+}
+
 .project {
     /* border-top: 10px solid red;
     border-right: 10px solid green;
@@ -66,7 +71,10 @@ h1 {
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px; */
+    margin: 10px;
     margin-bottom: 15px;
+    padding: 20px;
+    background: white;
 }
 
 .project-details {
