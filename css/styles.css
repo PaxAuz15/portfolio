@@ -32,6 +32,21 @@ h1 {
     /* text-transform: uppercase;
 
     text-decoration: dashed; */
+
+    color: white;
+}
+
+.hero {
+    height: 300px;
+    background-image: url('../images/Baile3roBGU.jpg');
+    background-color: #1b2127;
+    background-size: 500px 300px ; /* Primer valor (ANCHO) Segundo valor (ALTO) */
+    background-repeat: no-repeat; /* Para que mi imagen no se repita */
+    background-position-x: right; /* Posicionar derecha */
+}
+
+.hero strong {
+    color: #026fff;
 }
 
 .project-details {
@@ -42,6 +57,15 @@ h1 {
     width: 500px;
 }
 
-.hero {
-    height: 300px;
+
+
+.header {
+    background-color: #1b2127;
+    color: white; /* color a los textos */
+}
+
+.header a {
+    color: white;
+    text-decoration: none; /*ningun estilo (quitar subrayado de los links)*/
+
 }
