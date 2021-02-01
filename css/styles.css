@@ -75,6 +75,7 @@ h1 {
     margin-bottom: 15px;
     padding: 20px;
     background: white;
+    /* box-sizing: border-box; Sirve para mantener el ancho (width establecido) */
 }
 
 .project-details {
@@ -95,4 +96,25 @@ h1 {
 .header a {
     color: white;
     text-decoration: none; /*ningun estilo (quitar subrayado de los links)*/
+}
+
+.flexbox {
+    display: flex;
+
+    /* alinear elementos en columna (padre ordena a hijos)
+    flex-direction: column; */
+
+    /* propiedad de flex de aceptar que los elementos hijos dejen su estado 
+    horizonal y puedan moverse al vertical */
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+
+    /* capacidad de obedecer la habilidad flexible de bloques (valores de 0 - 1)
+    NOTA> En este ejemplo respeta el ancho original pero los elementos crean un scroll horizontal */
+    flex-shrink: 0;
 }
