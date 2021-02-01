@@ -4,69 +4,68 @@
         <meta charset="UTF-8">
         <title>Hola soy Luis Auz</title>
         <link rel="icon" type="image/png" href="images/Logo Luis Auz.png">
+        <!-- Fonts Google -->
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
         <!-- add style -->
         <link rel="stylesheet" href="css/styles.css">
-
-        <style>
-            header {
-                background: green;
-            }
-        </style>
+        <link rel="preconnect" href="https://fonts.gstatic.com">       
     </head>
     <body>
-        <header style="color: red; background: blue;">
+        <header class="header">
             <div>
-                <figure>
+                <figure class="logo">
                     <img src="images/Logo Luis Auz.png" alt="logo de Luis Auz">
                 </figure>
-                <nav>
+                <nav class="menu">
                     <ol>
                         <li>
-                            <a href="#portfolio">Portfolio</a>
+                            <a class="link" href="#portfolio">Portfolio</a>
                         </li>
                         <li>
-                            <a href="#experience">Experience</a>
+                            <a class="link" href="#experience">Experience</a>
                         </li>
                         <li>
-                            <a href="#contact">Work toguether!</a>
+                            <a class="link" href="#contact">Work toguether!</a>
                         </li>
                     </ol>
                 </nav>
             </div>
         </header>
-        <section>
+        <section class="hero">
             <h1>Hola! Soy <strong>Luis Auz</strong><br> Desarrollador <strong>Python</strong> con <br> pasión por las <strong>matemáticas</strong></h1>
             <img src="images/Baile3roBGU.jpg" alt="imagen de portada" width="500"> 
         </section>
-        <section id="portfolio">
+        <section id="portfolio" class="portfolio">
             <h2>Portafolio (Proyectos Destacados)</h2>
-            <article>
-                <h3>Platzi Video</h3>
-                <h6>React Native / React</h6>
-                <p><small><strong>Fecha:</strong> 01/07/2018</small></p>
-                <p><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, voluptate, veniam cupiditate dicta cumque distinctio esse beatae nam est exercitationem suscipit nulla at dolore et neque voluptatibus officiis quasi ullam.</p>
-                <img src="images/tutor-mate2.jpg" alt="Luis Auz impartiendo tutorías de matemáticas" width="500">
+            <article class="project">
+                <h3 class="project-title">Platzi Video</h3>
+                <h6 class="project-course">React Native / React</h6>
+                <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+                <p class="projecct-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
+                <p class="project-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, voluptate, veniam cupiditate dicta cumque distinctio esse beatae nam est exercitationem suscipit nulla at dolore et neque voluptatibus officiis quasi ullam.</p>
+                <figure class="project-imageContainer">
+                    <img class="project-image" src="images/tutor-mate2.jpg" alt="Luis Auz impartiendo tutorías de matemáticas" width="500">
+                </figure>
             </article>
         </section>
         <section id="experience">
             <h2>Más sobre mi experiencia</h2>
-            <article>
-                <figure>
-                    <img src="images/tutor-mate.jpg" alt="Luis Auz impartiendo tutorías de matemáticas" width="500">
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="images/tutor-mate.jpg" alt="Luis Auz impartiendo tutorías de matemáticas" width="500">
                 </figure>
-                <h3>PlatziConf México 2018</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae quasi deserunt, molestias vero neque consectetur rerum autem quam? Praesentium, reprehenderit consequatur! Dicta, eius? Eaque debitis sapiente eius maiores alias aliquid.</p>
-                <a href="https://youtu.be/rPfoD7jEXnU" target="_blank">Ver Talk</a>
+                <h3 class="event-title">PlatziConf México 2018</h3>
+                <p class="event-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae quasi deserunt, molestias vero neque consectetur rerum autem quam? Praesentium, reprehenderit consequatur! Dicta, eius? Eaque debitis sapiente eius maiores alias aliquid.</p>
+                <a class="event-url" href="https://youtu.be/rPfoD7jEXnU" target="_blank">Ver Talk</a>
             </article>
         </section>
-        <section id="contact">
-            <form action="/suscripcion/">
+        <section id="contact" class="contact">
+            <form class="form-email" action="/suscripcion/">
                 <h3>¿Creamos algo juntos?</h3>
                 <input type="text" placeholder="Déjame tu email" id="email">
                 <button>Enviar</button>
             </form>
         </section>
-        <footer>footer</footer>
+        <footer class="footer">footer</footer>
     </body>
 </html>
