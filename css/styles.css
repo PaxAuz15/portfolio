@@ -60,6 +60,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hero strong {
@@ -99,6 +100,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .project-course, 
@@ -142,6 +144,7 @@ h2 {
     justify-content: space-between;
     height: 70px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .header ol {
@@ -178,6 +181,7 @@ figure {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer img {
@@ -244,6 +248,7 @@ figure {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .social {
@@ -303,7 +308,7 @@ figure {
 
 .container {
     /* border: 1px solid red; */
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
@@ -318,7 +323,7 @@ figure {
 }
 @media screen and (max-width:768px){
     body {
-        border: 10px solid green;
+        /* border: 10px solid green; */
     }
 }
 @media screen and (max-width:480px){
